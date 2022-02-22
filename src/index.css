@@ -40,8 +40,6 @@ input {
 .card p {
   padding: 5px;
   text-align: center;
-
-  
 }
 
 .card img {
@@ -57,15 +55,22 @@ input {
     background-color: rgb(17, 16, 16);
     color: #fff;
    }
-
+   ol{
+    padding: 0px;
+   }
  .card-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- 
+ justify-content: center;
+}
+.card p {
+  padding: 3px;
+  text-align: center;
+  font-size: 5px;
 }
    .card img {
-    max-height: 50px;
+    max-height: 100px;
     margin:0px auto; 
   }
 
